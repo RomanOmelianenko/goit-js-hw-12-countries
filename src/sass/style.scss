@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.form {
+  text-align: center;
+}
+
+.form-input {
+  font-size: 28px;
+  // line-height: 1.2;
+  text-align: center;
+  margin: 40px;
+  width: 600px;
+}
+
+.list {
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.country {
+  display: flex;
+  justify-content: center;
+}
+
+.flag {
+  width: 300px;
+  height: 250px;
+}
+
+.text {
+  font-weight: bold;
+}
